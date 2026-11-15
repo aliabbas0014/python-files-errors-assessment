@@ -1,5 +1,4 @@
- 
-<!-- ================= ANIMATED HEADER ================= -->
+ <!-- ================= ANIMATED HEADER ================= -->
 
 <div align="center">
 
@@ -35,6 +34,9 @@
 - [Key Features](#-key-features)
 - [Live Demo](#-live-demo)
 - [Project Structure](#-project-structure)
+- [System Design Diagrams](#-system-design-diagrams)
+  - [Expense Tracker Diagrams](#1-institute-expense-tracker-diagrams)
+  - [Attendance Cleaner Diagrams](#2-student-attendance-cleaner-diagrams)
 - [Technologies Used](#-technologies-used)
 - [Python Concepts Implemented](#-python-concepts-implemented)
 - [Installation and Setup](#-installation-and-setup)
@@ -179,6 +181,22 @@ python-files-errors-assessment/
 ├── README.md
 │   └── Project documentation
 │
+├── assets/
+│   │
+│   ├── expense-tracker/
+│   │   ├── uml-diagram.svg
+│   │   ├── use-case-diagram.svg
+│   │   ├── architecture-diagram.svg
+│   │   ├── sequence-diagram.svg
+│   │   └── flowchart.svg
+│   │
+│   └── attendance-cleaner/
+│       ├── uml-diagram.svg
+│       ├── use-case-diagram.svg
+│       ├── architecture-diagram.svg
+│       ├── sequence-diagram.svg
+│       └── flowchart.svg
+│
 ├── expenses.csv
 │   └── Generated expense records
 │
@@ -187,6 +205,62 @@ python-files-errors-assessment/
 ```
 
 **Note:** `expenses.csv` and `attendance_clean.csv` are generated output files. They are created when the respective applications run; they do not need to exist before the first execution.
+
+---
+
+## 🏗️ System Design Diagrams
+
+This section presents the visual system designs of both applications. Each application has its own UML, Use Case, Architecture, Sequence, and Flowchart diagrams to explain its internal structure and execution process.
+
+### 1. Institute Expense Tracker Diagrams
+
+These diagrams represent the structure, functionality, architecture, and execution flow of the Institute Expense Tracker.
+
+#### 1.1 UML Class Diagram
+
+<img src="assets/expense-tracker/uml-diagram.svg" width="100%" alt="Expense Tracker UML Class Diagram">
+
+#### 1.2 Use Case Diagram
+
+<img src="assets/expense-tracker/use-case-diagram.svg" width="100%" alt="Expense Tracker Use Case Diagram">
+
+#### 1.3 System Architecture Diagram
+
+<img src="assets/expense-tracker/architecture-diagram.svg" width="100%" alt="Expense Tracker System Architecture Diagram">
+
+#### 1.4 Sequence Diagram
+
+<img src="assets/expense-tracker/sequence-diagram.svg" width="100%" alt="Expense Tracker Sequence Diagram">
+
+#### 1.5 Program Flowchart
+
+<img src="assets/expense-tracker/flowchart.svg" width="100%" alt="Expense Tracker Program Flowchart">
+
+---
+
+### 2. Student Attendance Cleaner Diagrams
+
+These diagrams represent the structure, functionality, architecture, and data-processing workflow of the Student Attendance Cleaner.
+
+#### 2.1 UML Class Diagram
+
+<img src="assets/attendance-cleaner/uml-diagram.svg" width="100%" alt="Attendance Cleaner UML Class Diagram">
+
+#### 2.2 Use Case Diagram
+
+<img src="assets/attendance-cleaner/use-case-diagram.svg" width="100%" alt="Attendance Cleaner Use Case Diagram">
+
+#### 2.3 System Architecture Diagram
+
+<img src="assets/attendance-cleaner/architecture-diagram.svg" width="100%" alt="Attendance Cleaner System Architecture Diagram">
+
+#### 2.4 Sequence Diagram
+
+<img src="assets/attendance-cleaner/sequence-diagram.svg" width="100%" alt="Attendance Cleaner Sequence Diagram">
+
+#### 2.5 Program Flowchart
+
+<img src="assets/attendance-cleaner/flowchart.svg" width="100%" alt="Attendance Cleaner Program Flowchart">
 
 ---
 
@@ -218,7 +292,7 @@ All Python functionality uses built-in Python modules. No external Python packag
 | Loops | Process records and display information |
 | Conditional Statements | Control menu options and validation |
 | List Comprehension | Clean student attendance records |
-| Functions | Use built-in functions for processing and calculations |
+| Functions | Use functions for processing and calculations |
 | File Handling | Read and write text and CSV files |
 | Exception Handling | Manage missing files and invalid input |
 | CSV Reader | Read existing expense records |
@@ -319,7 +393,7 @@ User Selects an Option
  Validate Input  Display Data  Calculate Sum
        |
        v
- Save to CSV
+   Save to CSV
        |
        v
  Return to Main Menu
@@ -397,12 +471,12 @@ The following test cases describe expected application behavior for normal input
 ```text
 ali
 Ahmed
-  sara
+ sara
 ALI
 ahmed
 usman
 Sara
-  usman
+ usman
 ```
 
 **Expected Results:**
@@ -498,25 +572,25 @@ Cleaned attendance saved successfully!
 
 The applications include basic error-handling mechanisms to improve reliability.
 
-**1. FileNotFoundError**
+### 1. FileNotFoundError
 
 Used when the required file does not exist.
 
 - Expense Tracker starts with an empty list if `expenses.csv` is missing.
 - Attendance Cleaner displays a message if `attendance.txt` is missing.
 
-**2. ValueError**
+### 2. ValueError
 
 Used to handle invalid user input.
 
 - Invalid expense amounts are rejected.
 - Invalid expense dates are rejected.
 
-**3. Input Validation**
+### 3. Input Validation
 
 The Expense Tracker validates the date format and numeric amount before saving a new record.
 
-**4. Empty Records**
+### 4. Empty Records
 
 The applications check whether records are available before displaying or processing them.
 
@@ -602,6 +676,7 @@ Possible improvements include:
 Software Engineering Graduate | Python Learner
 
 [![GitHub](https://img.shields.io/badge/GitHub-aliabbas0014-181717?style=flat&logo=github)](https://github.com/aliabbas0014)
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0EA5E9?style=flat&logo=googlechrome&logoColor=white)](https://aliabbas0014.github.io/Portfolio)
 
 <br>
