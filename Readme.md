@@ -159,7 +159,7 @@ Explore the interactive browser-based project showcase:
 <div align="center">
 
 <a href="https://aliabbas0014.github.io/python-files-errors-assessment/demo.html">
-<img src="assets/svg-buttons/live-demo.svg" alt="View Live Demo">
+<img src="assets/svg-buttons/view-live-demo.svg" alt="View Live Demo">
 </a>
 
 <br>
