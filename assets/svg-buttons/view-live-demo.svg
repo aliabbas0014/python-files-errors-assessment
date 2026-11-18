@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="52" viewBox="0 0 220 52" role="img" aria-labelledby="title">
+  <title id="title">View Live Demo</title>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172B50"/>
+      <stop offset="1" stop-color="#0B1428"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60D5FF"/>
+      <stop offset="1" stop-color="#6487FF"/>
+    </linearGradient>
+  </defs>
+  <a href="https://example.com" xlink:href="https://example.com" target="_blank">
+    <rect x="1" y="1" width="218" height="50" rx="11" fill="url(#surface)" stroke="url(#edge)" stroke-width="1.4"/>
+    <rect x="2" y="2" width="216" height="48" rx="10" fill="none" stroke="#FFFFFF" stroke-opacity=".06"/>
+    <circle cx="27" cy="26" r="12" fill="#2563EB" fill-opacity=".2"/>
+    <path d="M21 22.5h10.5v9H21z M26.5 19h7v7 M33.5 19l-7.2 7.2" fill="none" stroke="url(#accent)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="119" y="31" text-anchor="middle" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" font-weight="650" letter-spacing=".1">View Live Demo</text>
+    <path d="M197 22l4 4-4 4" fill="none" stroke="#7DD3FC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </a>
+</svg>

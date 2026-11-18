@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="52" viewBox="0 0 220 52" role="img" aria-labelledby="title">
+  <title id="title">Explore Project</title>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172B50"/>
+      <stop offset="1" stop-color="#0B1428"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60D5FF"/>
+      <stop offset="1" stop-color="#6487FF"/>
+    </linearGradient>
+  </defs>
+  <a href="https://example.com/project" xlink:href="https://example.com/project" target="_blank">
+    <rect x="1" y="1" width="218" height="50" rx="11" fill="url(#surface)" stroke="url(#edge)" stroke-width="1.4"/>
+    <rect x="2" y="2" width="216" height="48" rx="10" fill="none" stroke="#FFFFFF" stroke-opacity=".06"/>
+    <circle cx="27" cy="26" r="12" fill="#2563EB" fill-opacity=".2"/>
+    <circle cx="27" cy="26" r="7.5" fill="none" stroke="url(#accent)" stroke-width="1.5"/>
+    <path d="M19.8 26h14.4 M27 18.8c3.8 3.8 3.8 10.6 0 14.4 M27 18.8c-3.8 3.8-3.8 10.6 0 14.4" fill="none" stroke="url(#accent)" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="119" y="31" text-anchor="middle" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13.5" font-weight="650" letter-spacing=".1">Explore Project</text>
+    <path d="M197 22l4 4-4 4" fill="none" stroke="#7DD3FC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </a>
+</svg>
