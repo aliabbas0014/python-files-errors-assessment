@@ -1,4 +1,5 @@
- <!-- ================= ANIMATED HEADER ================= -->
+
+<!-- ================= ANIMATED HEADER ================= -->
 
 <div align="center">
 
@@ -19,8 +20,16 @@
 
 <br>
 
+<!-- ================= SVG CTA BUTTONS ================= -->
+
 <a href="https://aliabbas0014.github.io/python-files-errors-assessment/demo.html">
-  <img src="https://img.shields.io/badge/🚀_VIEW_LIVE_DEMO-Open%20Interactive%20Preview-0EA5E9?style=for-the-badge" alt="Live Demo">
+<img src="assets/svg-buttons/live-demo.svg" alt="View Live Demo">
+</a>
+<a href="https://github.com/aliabbas0014/python-files-errors-assessment">
+<img src="assets/svg-buttons/source-code.svg" alt="View Source Code">
+</a>
+<a href="#-project-modules">
+<img src="assets/svg-buttons/explore-project.svg" alt="Explore Project">
 </a>
 
 </div>
@@ -150,8 +159,12 @@ Explore the interactive browser-based project showcase:
 <div align="center">
 
 <a href="https://aliabbas0014.github.io/python-files-errors-assessment/demo.html">
-  <img src="https://img.shields.io/badge/OPEN_INTERACTIVE_DEMO-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Open Demo">
+<img src="assets/svg-buttons/live-demo.svg" alt="View Live Demo">
 </a>
+
+<br>
+
+**Explore both applications through an interactive browser-based demonstration.**
 
 </div>
 
@@ -190,12 +203,17 @@ python-files-errors-assessment/
 │   │   ├── sequence-diagram.svg
 │   │   └── flowchart.svg
 │   │
-│   └── attendance-cleaner/
-│       ├── uml-diagram.svg
-│       ├── use-case-diagram.svg
-│       ├── architecture-diagram.svg
-│       ├── sequence-diagram.svg
-│       └── flowchart.svg
+│   ├── attendance-cleaner/
+│   │   ├── uml-diagram.svg
+│   │   ├── use-case-diagram.svg
+│   │   ├── architecture-diagram.svg
+│   │   ├── sequence-diagram.svg
+│   │   └── flowchart.svg
+│   │
+│   └── svg-buttons/
+│       ├── live-demo.svg
+│       ├── source-code.svg
+│       └── explore-project.svg
 │
 ├── expenses.csv
 │   └── Generated expense records
@@ -374,61 +392,61 @@ The program will process the attendance records and generate `attendance_clean.c
 
 ```text
 Start Application
-       |
-       v
+      |
+      v
 Load Existing Expenses
-       |
-       v
+      |
+      v
 Display Main Menu
-       |
-       v
+      |
+      v
 User Selects an Option
-       |
-       +-------------------------+
-       |            |            |
-       v            v            v
-   Add Expense  Show Records  Category Total
-       |            |            |
-       v            v            v
- Validate Input  Display Data  Calculate Sum
-       |
-       v
-   Save to CSV
-       |
-       v
- Return to Main Menu
-       |
-       v
-      Exit
+      |
+      +-------------------------+
+      |            |            |
+      v            v            v
+  Add Expense  Show Records  Category Total
+      |            |            |
+      v            v            v
+Validate Input  Display Data  Calculate Sum
+      |
+      v
+  Save to CSV
+      |
+      v
+Return to Main Menu
+      |
+      v
+     Exit
 ```
 
 ### Attendance Cleaner Workflow
 
 ```text
 Start Application
-       |
-       v
+      |
+      v
 Read attendance.txt
-       |
-       v
+      |
+      v
 Clean Student Names
-       |
-       v
+      |
+      v
 Remove Extra Spaces
-       |
-       v
+      |
+      v
 Standardize Name Format
-       |
-       v
+      |
+      v
 Identify Unique Students
-       |
-       v
+      |
+      v
 Sort Alphabetically
-       |
-       v
+      |
+      v
 Save to attendance_clean.csv
-       |
-       v
+      |
+      v
 Display Attendance Report
 ```
 
