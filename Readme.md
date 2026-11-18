@@ -23,10 +23,10 @@
 <!-- ================= SVG CTA BUTTONS ================= -->
 
 <a href="https://aliabbas0014.github.io/python-files-errors-assessment/demo.html">
-<img src="assets/svg-buttons/live-demo.svg" alt="View Live Demo">
+<img src="assets/svg-buttons/view-live-demo.svg" alt="View Live Demo">
 </a>
 <a href="https://github.com/aliabbas0014/python-files-errors-assessment">
-<img src="assets/svg-buttons/source-code.svg" alt="View Source Code">
+<img src="assets/svg-buttons/view-source-code.svg" alt="View Source Code">
 </a>
 <a href="#-project-modules">
 <img src="assets/svg-buttons/explore-project.svg" alt="Explore Project">
